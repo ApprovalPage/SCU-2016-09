@@ -685,12 +685,12 @@ p.nominalBounds = new cjs.Rectangle(0,0,336,140);
 
 	// Layer 1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#000000").ss(1,1,0,3).p("Eg4ygG8MBxlAAAIAAN5MhxlAAAg");
+	this.shape.graphics.f().s("#000000").ss(1,1,0,3).p("Eg4tgG3MBxbAAAIAANvMhxbAAAg");
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-364.5,-45.5,729,91);
+p.nominalBounds = new cjs.Rectangle(-364,-45,728,90);
 
 
 (lib._2016TAG = function(mode,startPosition,loop) {
