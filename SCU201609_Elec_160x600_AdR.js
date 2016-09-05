@@ -694,12 +694,12 @@ p.nominalBounds = new cjs.Rectangle(0,0,336,140);
 
 	// Layer 1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#000000").ss(1,1,0,3).p("EgMaguyIY1AAMAAABdlI41AAg");
+	this.shape.graphics.f().s("#000000").ss(1,1,0,3).p("EgMVgutIYrAAMAAABdbI4rAAg");
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-80.5,-300.5,161,601);
+p.nominalBounds = new cjs.Rectangle(-80,-300,160,600);
 
 
 (lib._2016_SCU_tagvertai = function(mode,startPosition,loop) {
