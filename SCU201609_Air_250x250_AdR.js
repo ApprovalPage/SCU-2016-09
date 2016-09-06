@@ -906,6 +906,33 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_3}]}).to({state:[{t:this.instance_4}]},40).to({state:[{t:this.instance_4}]},9).to({state:[{t:this.instance_4}]},31).to({state:[{t:this.instance_4}]},10).to({state:[{t:this.instance_4}]},79).to({state:[{t:this.instance_4}]},9).to({state:[]},1).wait(4));
 	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(40).to({_off:false},0).to({regX:-7.4,regY:4.5,scaleX:0.69,scaleY:0.69,x:46.5,y:68},9).wait(31).to({startPosition:0},0).to({x:40.5,y:30.1},10).wait(79).to({startPosition:0},0).to({y:-59},9).to({_off:true},1).wait(4));
 
+	// mask (mask)
+	var mask_1 = new cjs.Shape();
+	mask_1._off = true;
+	var mask_1_graphics_80 = new cjs.Graphics().p("ArYLjIAA3FIWxAAIAAXFg");
+	var mask_1_graphics_81 = new cjs.Graphics().p("AhnLjIAA3FIWyAAIAAXFg");
+	var mask_1_graphics_82 = new cjs.Graphics().p("AhmLjIAA3FIWyAAIAAXFg");
+	var mask_1_graphics_83 = new cjs.Graphics().p("AhlLjIAA3FIWyAAIAAXFg");
+	var mask_1_graphics_84 = new cjs.Graphics().p("AhlLjIAA3FIWyAAIAAXFg");
+	var mask_1_graphics_85 = new cjs.Graphics().p("AhkLjIAA3FIWyAAIAAXFg");
+	var mask_1_graphics_86 = new cjs.Graphics().p("AhjLjIAA3FIWyAAIAAXFg");
+	var mask_1_graphics_87 = new cjs.Graphics().p("AhjLjIAA3FIWyAAIAAXFg");
+	var mask_1_graphics_88 = new cjs.Graphics().p("AhiLjIAA3FIWyAAIAAXFg");
+	var mask_1_graphics_89 = new cjs.Graphics().p("AhhLjIAA3FIWyAAIAAXFg");
+	var mask_1_graphics_90 = new cjs.Graphics().p("ArZLjIAA3FIWzAAIAAXFg");
+	var mask_1_graphics_169 = new cjs.Graphics().p("ArZLjIAA3FIWzAAIAAXFg");
+	var mask_1_graphics_170 = new cjs.Graphics().p("AhhLjIAA3FIWyAAIAAXFg");
+	var mask_1_graphics_171 = new cjs.Graphics().p("AhiLjIAA3FIWyAAIAAXFg");
+	var mask_1_graphics_172 = new cjs.Graphics().p("AhjLjIAA3FIWyAAIAAXFg");
+	var mask_1_graphics_173 = new cjs.Graphics().p("AhkLjIAA3FIWyAAIAAXFg");
+	var mask_1_graphics_174 = new cjs.Graphics().p("AhkLjIAA3FIWyAAIAAXFg");
+	var mask_1_graphics_175 = new cjs.Graphics().p("AhlLjIAA3FIWyAAIAAXFg");
+	var mask_1_graphics_176 = new cjs.Graphics().p("AhmLjIAA3FIWyAAIAAXFg");
+	var mask_1_graphics_177 = new cjs.Graphics().p("AhnLjIAA3FIWyAAIAAXFg");
+	var mask_1_graphics_178 = new cjs.Graphics().p("ArYLjIAA3FIWxAAIAAXFg");
+
+	this.timeline.addTween(cjs.Tween.get(mask_1).to({graphics:null,x:0,y:0}).wait(80).to({graphics:mask_1_graphics_80,x:198,y:58}).wait(1).to({graphics:mask_1_graphics_81,x:135.6,y:54}).wait(1).to({graphics:mask_1_graphics_82,x:135.6,y:50}).wait(1).to({graphics:mask_1_graphics_83,x:135.7,y:46}).wait(1).to({graphics:mask_1_graphics_84,x:135.8,y:42}).wait(1).to({graphics:mask_1_graphics_85,x:135.9,y:38}).wait(1).to({graphics:mask_1_graphics_86,x:135.9,y:34}).wait(1).to({graphics:mask_1_graphics_87,x:136,y:30}).wait(1).to({graphics:mask_1_graphics_88,x:136.1,y:26}).wait(1).to({graphics:mask_1_graphics_89,x:136.1,y:22}).wait(1).to({graphics:mask_1_graphics_90,x:199.4,y:18}).wait(79).to({graphics:mask_1_graphics_169,x:199.4,y:18}).wait(1).to({graphics:mask_1_graphics_170,x:136.1,y:7.8}).wait(1).to({graphics:mask_1_graphics_171,x:136,y:-2.4}).wait(1).to({graphics:mask_1_graphics_172,x:136,y:-12.6}).wait(1).to({graphics:mask_1_graphics_173,x:135.9,y:-22.8}).wait(1).to({graphics:mask_1_graphics_174,x:135.8,y:-33.1}).wait(1).to({graphics:mask_1_graphics_175,x:135.7,y:-43.3}).wait(1).to({graphics:mask_1_graphics_176,x:135.7,y:-53.5}).wait(1).to({graphics:mask_1_graphics_177,x:135.6,y:-63.7}).wait(1).to({graphics:mask_1_graphics_178,x:198,y:-74}).wait(1).to({graphics:null,x:0,y:0}).wait(4));
+
 	// PIC2
 	this.instance_5 = new lib._336x280dev();
 	this.instance_5.setTransform(95,-8);
@@ -914,8 +941,10 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	this.instance_6.setTransform(179,62);
 	this.instance_6._off = true;
 
+	this.instance_5.mask = this.instance_6.mask = mask_1;
+
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_5}]},40).to({state:[{t:this.instance_6}]},40).to({state:[{t:this.instance_6}]},10).to({state:[{t:this.instance_6}]},79).to({state:[{t:this.instance_6}]},9).to({state:[]},1).wait(4));
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(80).to({_off:false},0).to({y:22},10).wait(79).to({startPosition:0},0).to({y:-70},9).to({_off:true},1).wait(4));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(80).to({_off:false},0).to({y:40},10).wait(79).to({startPosition:0},0).to({y:-53},9).to({_off:true},1).wait(4));
 
 	// PIC shad
 	this.instance_7 = new lib.HTML5rastershad_1();
@@ -925,17 +954,17 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(80).to({y:102},10).wait(79).to({y:7},9).to({_off:true},1).wait(4));
 
 	// mask (mask)
-	var mask_1 = new cjs.Shape();
-	mask_1._off = true;
-	var mask_1_graphics_0 = new cjs.Graphics().p("A7VC5IAAlwMA2qAAAIAAFwg");
+	var mask_2 = new cjs.Shape();
+	mask_2._off = true;
+	var mask_2_graphics_0 = new cjs.Graphics().p("A7VC5IAAlwMA2qAAAIAAFwg");
 
-	this.timeline.addTween(cjs.Tween.get(mask_1).to({graphics:mask_1_graphics_0,x:150,y:164.6}).wait(49).to({graphics:null,x:0,y:0}).wait(134));
+	this.timeline.addTween(cjs.Tween.get(mask_2).to({graphics:mask_2_graphics_0,x:150,y:164.6}).wait(49).to({graphics:null,x:0,y:0}).wait(134));
 
 	// HEAD
 	this.instance_8 = new lib.HEAD1();
 	this.instance_8.setTransform(244.5,189,1,1,0,0,0,119.5,27);
 
-	this.instance_8.mask = mask_1;
+	this.instance_8.mask = mask_2;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_8).to({_off:true},80).wait(103));
 
