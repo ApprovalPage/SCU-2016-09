@@ -894,7 +894,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	this.instance_7.setTransform(120.1,30,1,1,-90,0,0,0,10);
 	this.instance_7.alpha = 0.199;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(80).to({x:9},10).to({_off:true},90).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(80).to({x:9},10).to({_off:true},1).wait(90));
 
 	// mask (mask)
 	var mask_2 = new cjs.Shape();
