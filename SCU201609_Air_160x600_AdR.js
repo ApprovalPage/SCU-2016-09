@@ -704,18 +704,18 @@ p.nominalBounds = new cjs.Rectangle(-80,-300,160,600);
 p.nominalBounds = new cjs.Rectangle(0,0,100.4,14.9);
 
 
-(lib._2016_SCU_logoruleai = function(mode,startPosition,loop) {
+(lib._2016_SCU_logoruleTHICKai = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer 2
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#F78E1E").s().p("AspAEQgEAAAAgEQAAgDAEAAIZSAAQAFAAAAADQAAAEgFAAg");
-	this.shape.setTransform(0,0.5);
+	this.shape.setTransform(0,0,1,2.1);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-81.4,0,162.9,1);
+p.nominalBounds = new cjs.Rectangle(-81.4,-1,162.9,2);
 
 
 (lib._2016_SCU_logorevai = function(mode,startPosition,loop) {
@@ -957,8 +957,8 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	this.timeline.addTween(cjs.Tween.get(this.instance_15).wait(88).to({_off:false},0).to({_off:true},90).wait(1));
 
 	// logo rule
-	this.instance_16 = new lib._2016_SCU_logoruleai();
-	this.instance_16.setTransform(155.6,525.1,0.927,0.927,0,0,0,81.5,0.5);
+	this.instance_16 = new lib._2016_SCU_logoruleTHICKai();
+	this.instance_16.setTransform(155.6,525.9,0.927,0.927,0,0,0,81.5,0.5);
 	this.instance_16._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_16).wait(88).to({_off:false},0).to({_off:true},90).wait(1));
