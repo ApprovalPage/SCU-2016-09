@@ -709,7 +709,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,100.4,14.9);
 
 	// Layer 2
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#F78E1E").s().p("AspAEQgEAAAAgEQAAgDAEAAIZSAAQAFAAAAADQAAAEgFAAg");
+	this.shape.graphics.f("#5169A8").s().p("AspAEQgEAAAAgEQAAgDAEAAIZSAAQAFAAAAADQAAAEgFAAg");
 	this.shape.setTransform(0,0,1,2.1);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));

@@ -946,7 +946,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 
 	// BBS
 	this.instance_12 = new lib._2016_SCU_BBSvertai();
-	this.instance_12.setTransform(138.4,540.3,2,2,0,0,0,39.2,7.7);
+	this.instance_12.setTransform(134.5,540.3,1.9,1.9,0,0,0,39.2,7.7);
 	this.instance_12._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(88).to({_off:false},0).to({_off:true},89).wait(2));
